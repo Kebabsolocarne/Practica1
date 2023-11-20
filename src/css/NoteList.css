@@ -1,0 +1,9 @@
+/* NoteList.css */
+
+.note-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-height: 400px; /* Ajusta la altura máxima según tus necesidades */
+  overflow-y: auto; /* Agrega una barra de desplazamiento vertical si es necesario */
+}
